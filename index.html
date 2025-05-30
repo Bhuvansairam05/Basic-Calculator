@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1 align="center">Interactive Arithmetic Operations</h1>
+        <div class="box">
+            <label for="number1">Number1:<br></label>
+            <input type="text" id="number1">
+        </div>
+        <div class="box">
+            <label for="number2">Number2:<br></label>
+            <input type="text" id="number2">
+        </div>
+        <div class="box" id="operations">
+            <label for="operation">Operations:<br></label>
+            <select name="Basic Operation" id="operation">
+                <option value="Addition">Addition(+)</option>
+                <option value="Subtraction">Subtraction(-)</option>
+                <option value="Multiply">Multiplication(*)</option>
+                <option value="Divide">Division(/)</option>
+            </select>
+        </div>
+        <div class="buttons">
+            <button id="calculate">Calculate</button>
+            <button id="clear">Clear</button>
+        </div>
+        <p>Result: <span id="result"></span></p>
+        <div id="challenge">
+            <h1 align="center">Calculation History</h1>
+        </div>
+    </div>
+</body>
+<script src="index.js">
+</script>
+</html>

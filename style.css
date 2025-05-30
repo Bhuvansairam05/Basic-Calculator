@@ -1,0 +1,60 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.calculator{
+    margin:15px;
+    padding:20px;
+    /* height: 560px; */
+    height:auto;
+    width:95%;
+    border:2px solid black;
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    background-color: rgb(249, 242, 242);
+}
+label{
+    font-size:20px;
+    width:100%;
+}
+input{
+    padding-left:10px;
+    height:25px;
+    width:100%;
+    font-size:18px;
+}
+.box{
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+}
+.buttons{
+    height:80px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:10px;
+}
+button{
+    height:45px;
+    width:100px;
+    font-size:20px;
+    background-color: green;
+    color:white;
+    border-radius: 5px;
+}
+select{
+    height:29px;
+    font-size:20px;
+    padding-left:10px;
+}
+p{
+    font-size:22px;
+}
+#challenge{
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+}
